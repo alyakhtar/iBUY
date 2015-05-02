@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>iBuy</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/custom.css" rel="stylesheet">	
+		<link href="css/font-awesome.min.css" rel="stylesheet"> 	 
+		<style type="text/css">
+		@font-face { font-family: Anothershabby; src: url('fonts/Anothershabby.ttf'); } 
+		@font-face { font-family: Hallosans; src: url('fonts/Hallosans.otf');}
+		@font-face { font-family: orangejuice; src: url('fonts/orangejuice.ttf'); }
+		@font-face { font-family: ZOMBIFIED; src: url('fonts/ZOMBIFIED.ttf'); }	
+		@font-face { font-family: BlackWidow; src: url('fonts/BlackWidow.ttf'); }
+		@font-face { font-family: Blazed; src: url('fonts/Blazed.ttf'); }	
+		@font-face { font-family: HangedLetters; src: url('fonts/Hanged Letters.ttf'); }
+		body 
+		{
+			background: #ffffff url() repeat-x fixed center top;
+			background-size:cover; 
+			padding-bottom:70px;
+		} 	
+		</style>   	 
+	</head>
+<body>
+
+		<div class="navbar " >
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#dropdown-thumbnail-preview">				
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>				
+				</button>
+				<a class="navbar-brand " href="home.jsp">ibuy</a>
+			</div>
+			<div class="navbar-collapse collapse" id="dropdown-thumbnail-preview">
+				<ul class="nav navbar-nav navbar-center">
+					<li class="active"><a href="home.jsp">Home</a></li>
+					<li class="dropdown thumb-dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="page1.html">iMac
+							<div class="thumbnail">
+                        					<img class="img-responsive" src="img/8.jpg">
+                    					</div>					
+							</a></li>
+							<li class="divider"></li>
+							<li><a href="page2.html">Macbook
+							<div class="thumbnail">
+                        					<img class="img-responsive" src="img/4.jpg">
+                    					</div>	
+							</a></li>
+							<li class="divider"></li>
+							<li><a href="page3.html">iPhone
+							<div class="thumbnail">
+                        					<img class="img-responsive" src="img/2.jpg">
+                    					</div>
+							</a></li>
+							<li class="divider"></li>
+							<li><a href="page4.html">iPad
+							<div class="thumbnail">
+                        					<img class="img-responsive" src="img/7.jpg">
+                    					</div>			
+							</a></li>
+							<li class="divider"></li>
+							<li><a href="page5.html">iPod
+							<div class="thumbnail">
+                        					<img class="img-responsive" src="img/5.jpg">
+                    					</div>
+							</a></li>
+						</ul>
+					</li>				
+				</ul>								
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li class="dropdown-header">Admins</li>
+							<li><a href="#aly" data-toggle="modal">@lY-o0p</a></li>
+							<li><a href="#manaf" data-toggle="modal">K@sa!</a></li>
+							<li><a href="#dhawal" data-toggle="modal">@wwAl</a></li>
+						</ul>
+					</li>
+					<li ><a href="cart.html" >icart</a></li>
+					<li ><a href="order.html">Orders</a></li>
+					<li ><a href="index.html">Logout</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container" style="padding-bottom:70px">
+		<div class="page-header">	
+			<h1 style="color: #000000;font-size:30px;font-weight:bold; font-family: Anothershabby">iMac</h1>
+		</div>
+		<div style="left:180px;padding-top:30px;padding-bottom:70px;" class="col-sm-8">
+			<div class="thumb2">
+				<img src="img/8.jpg" alt="imac"></img>
+			</div><br><br>									
+		</div>
+	</div>
+	<div class="featurette">	
+    		<img class="featurette-image pull-left featurette1" src="img/dbms_images/imac/imac.png">					
+				<h2 class="featurette-heading" style="color:#000066; padding-left:840px;font-family: HangedLetters;">iMac</span></h2>
+    			<!--<a href="product.html"  style="margin-left:200px" class="btn btn-success btn1" >Details »</a>-->
+    			<form method="post" action="details" name="imac">
+			        <p><input type="submit" class="btn btn-success btn1" name="Details" value="iMac Details" style="margin-left:200px"></p>             			
+            	</form>
+    			<p class="lead"></p>
+			</img>
+	</div>
+	<div class="featurette">	
+    		<img class="featurette-image pull-left featurette1" src="img/dbms_images/imac/imacretina.png">					
+				<h2 class="featurette-heading" style="color:#000066; padding-left:840px;font-family: HangedLetters;">iMac Retina</span></h2>
+    			<!--<a href="#" style="margin-left:200px"class="btn btn-primary btn2">Details »</a>-->
+    			<form method="post" action="details" name="imac">
+			        <p><input type="submit" class="btn btn-primary btn2" name="Details" value="iMac Retina Details" style="margin-left:200px"></p>             			
+            	</form>
+    			<p class="lead"></p>
+			</img>
+	</div>
+	<div class="featurette">	
+    		<img class="featurette-image pull-left featurette1" src="img/dbms_images/imac/imacmini.png">					
+				<h2 class="featurette-heading" style="color:#000066; padding-left:840px;font-family: HangedLetters;">iMac Mini</span></h2>
+    			<!--<a href="#" style="margin-left:200px" class="btn btn-success btn1">Details »</a>-->
+    			<form method="post" action="details" name="imac">
+			        <p><input type="submit" class="btn btn-danger btn1" name="Details" value="iMac Mini Details" style="margin-left:200px"></p>             			
+            	</form>
+    			<p class="lead"></p>
+			</img>
+	</div>
+		
+	<div class="navbar navbar-fixed-bottom " role="navigation"> 
+		<div class="container">
+			<div class="navbar-text pull-left">
+				<p style="color:#000000;">Copyright © 2014</p>
+			</div>
+			<div class="navbar-text pull-right">
+				<a href="https://fb.com/aly.akhtar"><i class="fa fa-facebook-square fa-2x"></i></a>
+				<a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+				<a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+				<a href="#"><i class="fa fa-rss-square fa-2x"></i></a>
+			</div>
+		</div>
+	</div>	
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- ===================================================== -->	
+	<div class="modal fade" id="aly" role="dialog">	
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4> ALY AKHTAR</h4>
+				</div>
+				<div class="modal-body">
+				         <p>Email: samurai.aly@gmail.com</p>
+					<p>Fb: fb.com/aly.akhtar</p>
+					<p>Skype: aly.akhtar</p>
+					<p>gitHub: alyakhtar</p>
+				</div>
+				<div class="modal-footer">
+					<a class="btn btn-primary" data-dismiss="modal">Close</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="manaf" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4> MANAFF M. KHAN</h4>
+				</div>
+				<div class="modal-body">
+				         <p>Email: </p>
+					<p>Fb: </p>
+					<p>Skype: </p>
+					<p>gitHub:</p>
+				</div>
+				<div class="modal-footer">
+					<a class="btn btn-primary" data-dismiss="modal">Close</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="dhawal" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4> DHAWAL ARORA</h4>
+				</div>
+				<div class="modal-body">
+				         <p>Email: D.P.ARORA1@gmail.com</p>
+					<p>Fb: fb.com/</p>
+					<p>Skype: DhawalP</p>
+					<p>gitHub:</p>
+				</div>
+				<div class="modal-footer">
+					<a class="btn btn-primary" data-dismiss="modal">Close</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="feedback" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form class="form-horizontal" role="form">
+					<div class="modal-header">
+						<h4>Feedback</h4>
+					</div>
+					<div class="modal-body">
+						<div class="form-group">
+							<label for="contact-name" class="col-sm-2 control-label">Name</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="contact-name" placeholder="First & Last Name">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="contact-email" class="col-sm-2 control-label">Email</label>
+							<div class="col-sm-10">
+								<input type="email" class="form-control" id="contact-email" placeholder="example@domain.com">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="contact-message" class="col-sm-2 control-label">Message</label>
+							<div class="col-sm-10">
+								<textarea class="form-control" rows="4"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<a class="btn btn-default" data-dismiss="modal">Close</a>
+						<button type="submit" class="btn btn-primary">Send</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<!--<div class="modal fade" id="details" role="dialog">	
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4> Product Specification</h4>
+				</div>
+				<div class="modal-body">
+					<center><h1>imac</h1></center> 
+					<img class="thumbmod" src="img/dbms_images/imac/imacretina.png"></img><br><br><br>
+					<p class="description"><em>Price</em> : Rs. 79,900- Rs. 142,900</p>
+					<p class="description"><em>Varients</em>:</p>
+					<div class="row2">	
+					<div class="col-md-4">
+			            <select class="form-control" name="expiry-month" id="expiry-month">
+			                <option>Model</option>
+			                <option value="01">Rs. 79,900 (21.5 inch)</option>
+			                <option value="02">Rs. 92,900 (21.5 inch)</option>
+			                <option value="03">Rs. 106,900 (21.5 inch)</option>
+			                <option value="04">Rs. 127,900 (27 inch)</option>
+			                <option value="05">Rs. 142,900 (27 inch)</option>			                
+			            </select>
+			        </div>			        
+			    	</div><br>
+			    	<P class="description"><em>Processor</em> : 1.4/2.7/2.9/3.2/3.4 GHz</p>
+			    	<p class="description"><em>Memory</em> : 8 Gb DDR3</p>
+			    	<p class="description"><em>Storage</em> : 500 Gb / 1 Tb</p>
+			    	<p class="description"><em>Graphics</em> : Intel / Nvidia </p>
+			    	<p class="description"><em>Audio</em> : Stereo Speaker, Dual microphones, Headphone port, Headphone/optical digital audio output (mini-jack), Support for Apple iPhone    headset with microphone </p>
+			    	<p class="description"><em>wireless</em> : Wi-Fi - 802.11ac Wi-Fi wireless networking, IEEE 802.11a/b/g/n compatible<br>Bluetooth - Bluetooth 4.0 wireless technology</p>
+			    	<br><hr ><br>
+			    	<p class="description"><em>Rating</em> : 4.5/5</p>
+			    	<p class="description"><em>Comments</em> : </p>
+			    	<p>blah blah blah</p>
+			    	<p>blah blah blah</p>
+			    	<p>blah blah blah</p>
+			    	<p class="description"><em>Add Comment</em></p>
+			    	<textarea cols="73" rows="5"></textarea>
+			    </div>
+				<div class="modal-footer">
+					<a class="btn btn-primary pull-left" data-dismiss="modal">Close</a>
+					<a class="btn btn-success pull-right" >Add To Cart</a>
+				</div>
+			</div>
+		</div>
+	</div> -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
